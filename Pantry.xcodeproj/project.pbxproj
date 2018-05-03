@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0E77562099FCF90031986B /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0E77552099FCF90031986B /* default.png */; };
+		DE0E775C209A038C0031986B /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0E775B209A038C0031986B /* cart.png */; };
+		DE0E7760209A043D0031986B /* spat.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0E775F209A043C0031986B /* spat.png */; };
+		DE0E7766209A13E80031986B /* PantryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E7765209A13E80031986B /* PantryItem.swift */; };
+		DE0E7768209A19FB0031986B /* PantryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E7767209A19FB0031986B /* PantryItemCell.swift */; };
+		DE2E5FE6209B300F007248F2 /* GroceryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E5FE5209B300F007248F2 /* GroceryItemCell.swift */; };
+		DE2E5FE8209B7C12007248F2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E5FE7209B7C12007248F2 /* RecipeCell.swift */; };
+		DE2E5FEC209B8238007248F2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E5FEB209B8238007248F2 /* Utils.swift */; };
+		DE721CBC209A370C009468B7 /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE721CBB209A370C009468B7 /* ApplicationState.swift */; };
+		DE721CBE209A3D0D009468B7 /* CreatePantryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE721CBD209A3D0D009468B7 /* CreatePantryItemViewController.swift */; };
+		DE721CC5209A66A7009468B7 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE721CC4209A66A7009468B7 /* GroceryItem.swift */; };
 		DE7903F92099F5DB00E23E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7903F82099F5DB00E23E7D /* AppDelegate.swift */; };
-		DE7903FB2099F5DB00E23E7D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7903FA2099F5DB00E23E7D /* FirstViewController.swift */; };
-		DE7903FD2099F5DB00E23E7D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7903FC2099F5DB00E23E7D /* SecondViewController.swift */; };
+		DE7903FB2099F5DB00E23E7D /* PantryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7903FA2099F5DB00E23E7D /* PantryViewController.swift */; };
+		DE7903FD2099F5DB00E23E7D /* GroceryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7903FC2099F5DB00E23E7D /* GroceryListViewController.swift */; };
 		DE7904002099F5DB00E23E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7903FE2099F5DB00E23E7D /* Main.storyboard */; };
 		DE7904022099F5E600E23E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7904012099F5E600E23E7D /* Assets.xcassets */; };
 		DE7904052099F5E600E23E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7904032099F5E600E23E7D /* LaunchScreen.storyboard */; };
 		DE7904102099F5E600E23E7D /* PantryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79040F2099F5E600E23E7D /* PantryTests.swift */; };
 		DE79041B2099F5E600E23E7D /* PantryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79041A2099F5E600E23E7D /* PantryUITests.swift */; };
+		DE7904292099F79100E23E7D /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7904282099F79100E23E7D /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE0E77552099FCF90031986B /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		DE0E775B209A038C0031986B /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		DE0E775F209A043C0031986B /* spat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spat.png; sourceTree = "<group>"; };
+		DE0E7765209A13E80031986B /* PantryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItem.swift; sourceTree = "<group>"; };
+		DE0E7767209A19FB0031986B /* PantryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItemCell.swift; sourceTree = "<group>"; };
+		DE2E5FE5209B300F007248F2 /* GroceryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemCell.swift; sourceTree = "<group>"; };
+		DE2E5FE7209B7C12007248F2 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		DE2E5FEB209B8238007248F2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DE721CBB209A370C009468B7 /* ApplicationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		DE721CBD209A3D0D009468B7 /* CreatePantryItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePantryItemViewController.swift; sourceTree = "<group>"; };
+		DE721CC4209A66A7009468B7 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
 		DE7903F52099F5DB00E23E7D /* Pantry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pantry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7903F82099F5DB00E23E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE7903FA2099F5DB00E23E7D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DE7903FC2099F5DB00E23E7D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DE7903FA2099F5DB00E23E7D /* PantryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryViewController.swift; sourceTree = "<group>"; };
+		DE7903FC2099F5DB00E23E7D /* GroceryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListViewController.swift; sourceTree = "<group>"; };
 		DE7903FF2099F5DB00E23E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE7904012099F5E600E23E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7904042099F5E600E23E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +72,7 @@
 		DE7904162099F5E600E23E7D /* PantryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE79041A2099F5E600E23E7D /* PantryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryUITests.swift; sourceTree = "<group>"; };
 		DE79041C2099F5E600E23E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7904282099F79100E23E7D /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +100,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE2E5FE9209B816E007248F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E7765209A13E80031986B /* PantryItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE2E5FEA209B8177007248F2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DE721CBD209A3D0D009468B7 /* CreatePantryItemViewController.swift */,
+				DE7903FA2099F5DB00E23E7D /* PantryViewController.swift */,
+				DE0E7767209A19FB0031986B /* PantryItemCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DE721CBF209A4A43009468B7 /* PantryList */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E5FEA209B8177007248F2 /* UI */,
+				DE2E5FE9209B816E007248F2 /* Model */,
+			);
+			path = PantryList;
+			sourceTree = "<group>";
+		};
+		DE721CC1209A4A97009468B7 /* GroceryList */ = {
+			isa = PBXGroup;
+			children = (
+				DE7903FC2099F5DB00E23E7D /* GroceryListViewController.swift */,
+				DE721CC4209A66A7009468B7 /* GroceryItem.swift */,
+				DE2E5FE5209B300F007248F2 /* GroceryItemCell.swift */,
+			);
+			path = GroceryList;
+			sourceTree = "<group>";
+		};
+		DE721CC2209A4AB3009468B7 /* RecipeList */ = {
+			isa = PBXGroup;
+			children = (
+				DE7904282099F79100E23E7D /* RecipeViewController.swift */,
+				DE2E5FE7209B7C12007248F2 /* RecipeCell.swift */,
+			);
+			path = RecipeList;
+			sourceTree = "<group>";
+		};
 		DE7903EC2099F5DB00E23E7D = {
 			isa = PBXGroup;
 			children = (
+				DE0E775F209A043C0031986B /* spat.png */,
+				DE0E775B209A038C0031986B /* cart.png */,
+				DE0E77552099FCF90031986B /* default.png */,
 				DE7903F72099F5DB00E23E7D /* Pantry */,
 				DE79040E2099F5E600E23E7D /* PantryTests */,
 				DE7904192099F5E600E23E7D /* PantryUITests */,
@@ -100,8 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				DE7903F82099F5DB00E23E7D /* AppDelegate.swift */,
-				DE7903FA2099F5DB00E23E7D /* FirstViewController.swift */,
-				DE7903FC2099F5DB00E23E7D /* SecondViewController.swift */,
+				DE721CBB209A370C009468B7 /* ApplicationState.swift */,
+				DE2E5FEB209B8238007248F2 /* Utils.swift */,
+				DE721CC1209A4A97009468B7 /* GroceryList */,
+				DE721CBF209A4A43009468B7 /* PantryList */,
+				DE721CC2209A4AB3009468B7 /* RecipeList */,
 				DE7903FE2099F5DB00E23E7D /* Main.storyboard */,
 				DE7904012099F5E600E23E7D /* Assets.xcassets */,
 				DE7904032099F5E600E23E7D /* LaunchScreen.storyboard */,
@@ -233,8 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7904052099F5E600E23E7D /* LaunchScreen.storyboard in Resources */,
+				DE0E775C209A038C0031986B /* cart.png in Resources */,
 				DE7904022099F5E600E23E7D /* Assets.xcassets in Resources */,
 				DE7904002099F5DB00E23E7D /* Main.storyboard in Resources */,
+				DE0E77562099FCF90031986B /* default.png in Resources */,
+				DE0E7760209A043D0031986B /* spat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7903FD2099F5DB00E23E7D /* SecondViewController.swift in Sources */,
+				DE721CBE209A3D0D009468B7 /* CreatePantryItemViewController.swift in Sources */,
+				DE2E5FEC209B8238007248F2 /* Utils.swift in Sources */,
+				DE2E5FE6209B300F007248F2 /* GroceryItemCell.swift in Sources */,
+				DE2E5FE8209B7C12007248F2 /* RecipeCell.swift in Sources */,
+				DE7903FD2099F5DB00E23E7D /* GroceryListViewController.swift in Sources */,
+				DE7904292099F79100E23E7D /* RecipeViewController.swift in Sources */,
 				DE7903F92099F5DB00E23E7D /* AppDelegate.swift in Sources */,
-				DE7903FB2099F5DB00E23E7D /* FirstViewController.swift in Sources */,
+				DE0E7766209A13E80031986B /* PantryItem.swift in Sources */,
+				DE0E7768209A19FB0031986B /* PantryItemCell.swift in Sources */,
+				DE721CBC209A370C009468B7 /* ApplicationState.swift in Sources */,
+				DE721CC5209A66A7009468B7 /* GroceryItem.swift in Sources */,
+				DE7903FB2099F5DB00E23E7D /* PantryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
